@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+ <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Invitación XV Años - Valentina</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	 <header>
+    <h1>Mis XV Años</h1>
+    <p>Te invito a celebrar conmigo este día tan especial</p>
+  </header>
+
+  <section class="evento">
+    <h2>Detalles del Evento</h2>
+    <p><strong>Fecha:</strong> Sábado 21 de Septiembre, 2025</p>
+    <p><strong>Hora:</strong> 6:00 PM</p>
+    <p><strong>Lugar:</strong> Salón Jardines del Lago, Ciudad de México</p>
+    <button onclick="document.getElementById('mapa').scrollIntoView({ behavior: 'smooth' });">Ver Mapa</button>
+    <button onclick="document.getElementById('confirmar').scrollIntoView({ behavior: 'smooth' });">Confirmar Asistencia</button>
+  </section>
+
+  <section id="mapa">
+    <h2>¿Dónde será?</h2>
+    <div class="map-container">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.4728536120654!2d-99.1451414848854!3d19.427025086889587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f92a14d41b4f%3A0xe8fd01b226948bb0!2sPalacio%20de%20Bellas%20Artes!5e0!3m2!1ses-419!2smx!4v1626809318252!5m2!1ses-419!2smx" 
+        allowfullscreen="" 
+        loading="lazy">
+      </iframe>
+    </div>
+  </section>
+
+  <section id="confirmar">
+    <h2>Confirmación</h2>
+    <p>Por favor, confirma tu asistencia antes del 10 de septiembre.</p>
+    <a href="https://wa.me/5215555555555?text=Hola!%20Confirmo%20mi%20asistencia%20a%20los%20XV%20de%20Valentina" class="btn-whatsapp" target="_blank">Confirmar por WhatsApp</a>
+  </section>
+
+  <footer>
+    <p>Con cariño, Valentina 💕</p>
+  </footer>
+
+</body>
+</html>
